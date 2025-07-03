@@ -1,10 +1,18 @@
 # Iris-ML-Lab
+A comprehensive machine learning laboratory focusing on the classic Iris dataset, covering data visualization, exploratory data analysis, and centroid-based classification.
 
-# Task 1 – Loading and Visualization
-Load the Iris dataset from a CSV file into numpy, convert class labels to numerical values, and create a scatter plot for the first two features (sepal length vs. sepal width).
+## Features
+- Data Loading & Preprocessing: Load Iris dataset from CSV with proper label encoding
+- Data Visualization: Create scatter plots for feature analysis
+- Exploratory Data Analysis: Generate comprehensive feature combination plots
+- Centroid Classification: Implement and visualize nearest-centroid classification
+- Distance Calculation: Use Euclidean distance for classification decisions
 
-# Task 2 – Visualizing Feature Combinations
-Generate a grid of scatter plots showing all possible feature combinations, with colors representing different classes. Add axis labels and a legend.
+## Requirements
+- numpy>=1.21.0
+- matplotlib>=3.5.0
+- scipy>=1.7.0
+## Installation
 
-# Task 3 – Classification Using Centroids
-Reduce the dataset to two features (petal length and petal width), compute centroids for each class, and classify a new sample based on the nearest centroid using Euclidean distance.
+1. Clone or download the project files
+2. Install required packages
